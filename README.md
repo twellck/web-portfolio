@@ -28,40 +28,19 @@ My skills and experience make me a valuable asset to any team looking to build a
 
 To run this website on your local machine, you will need to have PHP and MySQL installed.
 
-1. Clone this repository: 
-```bash
-git clone https://github.com/aimraud/portfolio-website.git
-```
+1. Clone this repository: ``` git clone https://github.com/aimraud/portfolio-website.git```
 
-2. Navigate to the project directory:: 
-```bash
-cd web-portfolio
-```
+2. Navigate to the project directory: ```cd web-portfolio```
 
-3. Install the required PHP dependencies: 
-```bash
-composer install
-```
+3. Install the required PHP dependencies: ```bashcomposer install```
 
-3. Install the required NPM packages: 
-```bash
-npm install
-```
+3. Install the required NPM packages: ```npm install```
 
-5. Copy the example environment file and update the database credentials:
-```bash
-  p .env.example .env
-```
+5. Copy the example environment file and update the database credentials: ```cp .env.example .env```
 
-5. Generate an app key:
-```bash
-php artisan key:generate
-```
+5. Generate an app key: ```php artisan key:generate```
 
-6. Start the local development server:
-```bash
-php artisan serve
-```
+6. Start the local development server: ```php artisan serve```
 
 ## Contributions
 
