@@ -28,7 +28,7 @@ My skills and experience make me a valuable asset to any team looking to build a
 
 To run this website on your local machine, you will need to have PHP and MySQL installed.
 
-1. Clone this repository: ``` git clone https://github.com/aimraud/portfolio-website.git```
+1. Clone this repository: ``` git clone https://github.com/aimraud/web-portfolio.git```
 
 2. Navigate to the project directory: ```cd web-portfolio```
 
