@@ -49,7 +49,7 @@
         <h3 class="animated-title text-xl">Full Stack Developer</h3>
     </div>
     <a id="scroll-down" href="#my-work" data-rellax-speed="-0.2"
-       class="cursor-pointer rellax absolute bottom-16 w-16 h-16 rounded-full flex items-center justify-center">
+       class="cursor-pointer rellax absolute bottom-6 sm:bottom-16 w-16 h-16 rounded-full flex items-center justify-center">
         <svg class="fill-current hover:fill-black/60 h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path
@@ -66,7 +66,7 @@
              src="{{ Vite::asset('resources/images/technologies/stripe.svg') }}"/>
     </a>
     <a href="https://firebase.google.com/" target="_blank" rel="noopener"
-       class="cursor-pointer absolute bottom-[10%] left-[10%] transition-parallax duration-500 rellax"
+       class="tech-icon-hidden sm:tech-icon-visible cursor-pointer absolute bottom-[10%] left-[10%] transition-parallax duration-500 rellax"
        data-rellax-speed="0.35"
        data-rellax-tablet-speed="0.35"
        data-rellax-desktop-speed="0.35">
@@ -74,7 +74,7 @@
              src="{{ Vite::asset('resources/images/technologies/firebase.svg') }}"/>
     </a>
     <a href="https://tailwindcss.com" target="_blank" rel="noopener"
-       class="cursor-pointer absolute top-[8%] right-[10%] lg:top-[15%] lg:right-[12%] xl:top-[43%] xl:right-[32%] transition-parallax duration-500 rellax"
+       class="tech-icon-hidden sm:tech-icon-visible cursor-pointer absolute top-[8%] right-[10%] lg:top-[15%] lg:right-[12%] xl:top-[43%] xl:right-[32%] transition-parallax duration-500 rellax"
        data-rellax-speed="0.5"
        data-rellax-mobile-speed="-0.25"
        data-rellax-tablet-speed="2.5">
@@ -97,7 +97,7 @@
              src="{{ Vite::asset('resources/images/technologies/github.svg') }}"/>
     </a>
     <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener"
-       class="cursor-pointer absolute top-[30%] left-[5%] transition-parallax duration-500 rellax"
+       class="tech-icon-hidden sm:tech-icon-visible cursor-pointer absolute top-[30%] left-[5%] transition-parallax duration-500 rellax"
        data-rellax-speed="1.25"
        data-rellax-mobile-speed="0.45"
        data-rellax-tablet-speed="0.75"
@@ -106,12 +106,12 @@
              src="{{ Vite::asset('resources/images/technologies/intellij-idea.svg') }}"/>
     </a>
     <a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="noopener"
-       class="cursor-pointer absolute top-[25%] right-[12%] sm:top-[22%] sm:right-[20%] lg:top-[15%] lg:right-1/3 transition-parallax duration-500 rellax"
+       class="cursor-pointer absolute top-[60%] right-[12%] sm:top-[22%] sm:right-[20%] lg:top-[15%] lg:right-1/3 transition-parallax duration-500 rellax"
        data-rellax-speed="4"
        data-rellax-mobile-speed="2"
        data-rellax-tablet--speed="4"
        data-rellax-desktop-speed="8.25">
-        <img class="h-36 w-36 tech-icon-shadow"
+        <img class="h-16 w-16 sm:h-36 sm:w-36 tech-icon-shadow"
              src="{{ Vite::asset('resources/images/technologies/phpstorm.svg') }}"/>
     </a>
     <a href="https://github.com" target="_blank" rel="noopener"
@@ -121,7 +121,7 @@
              src="{{ Vite::asset('resources/images/technologies/slack.svg') }}"/>
     </a>
     <a href="https://blackfire.io/" target="_blank" rel="noopener"
-       class="cursor-pointer absolute bottom-[10%] right-[6%] transition-parallax duration-500 rellax"
+       class="tech-icon-hidden sm:tech-icon-visible cursor-pointer absolute bottom-[10%] right-[6%] transition-parallax duration-500 rellax"
        data-rellax-speed="0.25">
         <img class="h-24 w-24 tech-icon-shadow-md"
              src="{{ Vite::asset('resources/images/technologies/blackfire.svg') }}"/>
@@ -131,11 +131,11 @@
        data-rellax-speed="0.65"
        data-rellax-tablet-speed="-0.25"
        data-rellax-desktop-speed="0.65">
-        <img class="h-24 w-24 tech-icon-shadow-md"
+        <img class="h-12 w-12 sm:h-24 sm:w-24 tech-icon-shadow-md"
              src="{{ Vite::asset('resources/images/technologies/reactjs.svg') }}"/>
     </a>
     <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener"
-       class="cursor-pointer absolute top-[55%] right-[15%] sm:right-[3%] sm:top-[43%] lg:right-[5%] transition-parallax duration-500 rellax"
+       class="cursor-pointer absolute top-[20%] right-[5%] sm:right-[3%] sm:top-[43%] lg:right-[5%] transition-parallax duration-500 rellax"
        data-rellax-speed="-0.1"
        data-rellax-mobile-speed="0.25"
        data-rellax-tablet-speed="-0.1"
@@ -166,12 +166,12 @@
              src="{{ Vite::asset('resources/images/technologies/figma.svg') }}"/>
     </a>
     <a href="https://laravel.com/" target="_blank" rel="noopener"
-       class="cursor-pointer absolute top-[12%] left-[20%] sm:top-[16%] sm:left-1/4 xl:top-[23%] xl:left-1/3 transition-parallax duration-500 rellax"
+       class="cursor-pointer absolute top-[15%] left-[16%] sm:top-[16%] sm:left-1/4 xl:top-[23%] xl:left-1/3 transition-parallax duration-500 rellax"
        data-rellax-speed="2"
        data-rellax-mobile-speed="0.75"
        data-rellax-tablet-speed="1.45"
        data-rellax-desktop-speed="2.75">
-        <img class="h-36 w-36 sm:h-44 sm:w-44 tech-icon-shadow-md"
+        <img class="h-20 w-20 sm:h-36 sm:w-36 sm:h-44 sm:w-44 tech-icon-shadow-md"
              src="{{ Vite::asset('resources/images/technologies/laravel.svg') }}"/>
     </a>
 </section>
