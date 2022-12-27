@@ -1,0 +1,63 @@
+@import "@fontsource/source-code-pro/scss/mixins.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Alpine-JS Cloak
+[x-cloak] { display: none !important; }
+
+html{
+    cursor: url(../../resources/images/cursors/default.png) , default !important;
+    @apply text-black;
+    background: rgb(255,207,171);
+    background: linear-gradient(48deg, rgba(255,207,171,1) 0%, rgba(255,253,226,1) 25%, rgba(241,217,255,1) 43%, rgba(244,238,218,1) 60%, rgba(169,247,255,1) 75%, rgba(166,255,223,1) 100%);
+
+    font-family: "Source Code Pro", monospace;
+
+    scroll-behavior: smooth;
+}
+
+.animated-title {
+    .letter{
+    display: inline-block;
+    line-height: 1em;
+    }
+}
+
+@layer utilities {
+    .tech-icon-hidden{
+        @apply pointer-events-none;
+        @apply opacity-0
+    }
+
+    .tech-icon-visible{
+        @apply pointer-events-auto;
+        @apply opacity-100;
+    }
+}
+
+.tech-icon-shadow-md {
+    filter: drop-shadow(2px 4px 6px rgb(0 0 0 / 0.2));
+}
+
+.tech-icon-shadow {
+    filter: drop-shadow(1px 2px 6px rgb(0 0 0 / 0.4));
+}
+
+//CODE FROM CODEPEN: https://codepen.io/ezra_siton/pen/XNpJaX
+ul.swiper-wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* override zoom cursor */
+.pswp__img {
+    cursor: pointer !important;
+}
+
+//Override Cursor
+.cursor-pointer{
+    cursor: url(../../resources/images/cursors/pointer.png) , pointer !important;
+}
